@@ -1,0 +1,170 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+  background-color: #0a0a19;
+  color: #f7f7f7;
+  font-family: 'Cairo', sans-serif;
+}
+.nav-c{
+  position: relative;
+  top: 1.1px;
+  left: 12px;
+}
+.navbar-brand{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.dr-tg{
+  background-color: transparent;
+  border: none;
+}
+.dr-tg:focus, .dr-tg:hover, .dr-tg:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+.btn-custom1{
+  background-color: #5e5ac9;
+  color: #f7f7f7;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+}
+.dropdown-menu{
+  background-color: #161625;
+}
+.btn-custom:hover{
+  color: #bbbbbb;
+}
+.dropdown-item:hover{
+  background-color: #1c1c2e;
+}
+.br-cs{
+  width: 10px;
+  height: 30px;
+}
+.main-title{
+  width: 50%;
+  margin: 0px auto;
+}
+.bk-title{
+  background-color: #938fff42;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transform: translate(-65px, -45px);
+  border-radius: 50%;
+  border: 2px solid #938fff27;
+  box-shadow: 0px 1px 20px #504db1;
+}
+.main-descreption{
+   width: 83%;
+  color: #bbbbbb;
+}
+.main-logo{
+  margin-left: 14.5%;
+}
+.btn-custom{
+  padding: 7px 18px;
+  font-size: 19px;
+  transition: all 0.2s;
+}
+.jn{    
+  background-color: #5e5ac9;
+  border-bottom: 8px solid #504db1;
+}
+.ds{
+  background-color: #7289DA;
+  border-bottom: 8px solid #6176c2;  
+}
+.ts{
+  background-color: #f7f7f7;
+  border-bottom: 8px solid #cccccc; 
+}
+.btn-custom:hover{
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
+.table{
+  color: #f7f7f7;
+  border-radius: 10px;
+}
+.di{
+  background-color: rgb(255, 255, 255, 0.05);
+  border-left: rgb(255, 255, 255, 0.2);
+  border-left: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 8px;
+  padding: 12px 22px;
+}
+.fa-circle{
+  color: #43b581;
+}
+.online{
+  color: #43b581;  
+}
+.status-title{
+  font-size: 22px;
+}
+.status-desc{
+  color: #bbbbbb;
+}
+td, th{
+  border: none;
+  color: #bbbbbb;
+}
+.t-tab{
+  color: #f7f7f7;
+}
+.test{
+  position: relative;
+  top: 47.8px;
+}
+
+footer{
+  background-color: #161625;
+  height: 7rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+  .main-title{
+    width: 100%;
+  }
+  .main-logo{
+    margin-bottom: 10%;
+  }
+  .di{
+    width: 95%;
+    margin-left: 3%;
+  }
+  .btn-custom1{
+    position: relative;
+    left: 18px;
+    top: 2px;
+  }
+  .mb0{
+    position: relative;
+    right: 12px;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1d1d30;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5e5ac9;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b47a7;
+}
